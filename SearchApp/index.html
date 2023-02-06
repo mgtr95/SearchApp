@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>iTunes Search App</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div class="search-container">
+            <input
+                type="text"
+                class="search-input"
+                placeholder="Search on iTunes"
+                id="txt"
+            />
+            <div class="search-results">
+                <ul id="list"></ul>
+                <img
+                    hidden
+                    src="./svg-loaders/oval.svg"
+                    alt="loader"
+                    id="spinner"
+                />
+                <p hidden>Nema rezultata za vaše pretraživanje.</p>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
