@@ -16,6 +16,7 @@ git clone https://github.com/your-username/search-app.git
 After cloning the repository, open index.html in your web browser to use the app.
 
 ## Usage
+Firstly, go to search app page - https://musicsearchapp.netlify.app/
 
 To search for a song, simply type the song name or singer in the search bar and click the "Search" button. The app will then display a list of results that match your search query.
 
